@@ -1,4 +1,5 @@
 ### vscode快捷键
+快捷键链接：<https://segmentfault.com/a/1190000012811886>
 1. 向上的箭头表示shift键
 2. 打开command：`command + shift + p`
 3. 打开preview（侧边）：`command + k, + v`
@@ -16,3 +17,4 @@
 
 Caution:
 1. commit 指记录当前工作树所有文件的**当前**状态
+yesy diff
