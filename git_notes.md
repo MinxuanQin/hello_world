@@ -17,7 +17,7 @@
 |git log --graph|以图表形式输出提交日志|
 |git diff<br>git diff HEAD|比较工作树和暂存区差别|
 |git branch|显示分支一览表，当前分支前有`*`|
-|git checkout -b|以当前分支为基础创建新分支|
+|git checkout -b 'branch_name'|以当前分支为基础创建新分支，并切换到新分支中|
 |git checkout 'brach_name'|切换分支|
 |git checkout -|切换到上一分支|
 |git merge --no-ff 'branch_name'|合并分支，自动打开编辑器添加commit备注<br>*'branch_name'指特性分支*|
@@ -33,3 +33,4 @@
 6. 在合并分支前需要将当前分支所有变化提交(commit)再回到主干分支(master)
 7. 对比`git log`与`git reflog`：前者只能查看以当前状态为终点的历史日志；后者可以查看所有日志，从而找到回溯历史前的状态
 8. 在回溯历史这样的操作中，创建完新分支一定要记得**切换到主干分支再跳回当前状态**
+9. .gitignore配置指南 <https://blog.csdn.net/a748448660/article/details/83824555?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromBaidu-1.control&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromBaidu-1.control>

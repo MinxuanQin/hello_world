@@ -1,3 +1,4 @@
 # hello_world
-test for featureA
+    - featureA
     - fix-B
+    - feature-C
