@@ -5,4 +5,4 @@ test for featureA
 =======
 >>>>>>> 
 test for featureA
-fix-B
+    - fix-B
