@@ -23,6 +23,7 @@
 |git merge --no-ff 'branch_name'|合并分支，自动打开编辑器添加commit备注<br>*'branch_name'指特性分支*|
 |git reset --hard 'hashcode'|回溯|
 |git reflog|查看当前仓库操作日志|
+|git rebase -i HEAD~N|选定**当前分支**包含HEAD(最新提交)在内的n个历史记录为对象，在编辑器中打开<br>fixup表示压缩历史记录
 
 **Caution:**
 1. commit 指记录当前工作树所有文件的**当前**状态
