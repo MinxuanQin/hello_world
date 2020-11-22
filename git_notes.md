@@ -13,8 +13,12 @@
 |git commit -m "..."|记述一行提交信息|
 |git  commit|启动编辑器，记述详细提交信息<br>`#`内容可忽略，第一行为简述<br>第二行为空行，三行以后记录详细内容|
 |git log<br>--pretty=short<br>filename<br>-p|查看提交日志，commit后的数字串为哈希值<br>只显示简略信息<br>只显示文件/目录相关<br>显示改动|
+|git diff<br>git diff HEAD|比较工作树和暂存区差别|
+|git branch|显示分支一览表，当前分支前有`*`|
+|git checkout -b|以当前分支为基础创建新分支
 
-
-Caution:
+**Caution:**
 1. commit 指记录当前工作树所有文件的**当前**状态
-yesy diff
+2. 在`git commit`之前先执行一次`git diff HEAD`,HEAD指向当前分支中最新一次提交的指针
+3. `git branch feature-A` 和 `git checkout feature-A`可以取得一样的效果：创建新分支
+4. 不断对一个分支进行提交的操作叫“培育分支”
