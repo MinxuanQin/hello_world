@@ -19,7 +19,7 @@
 |git checkout -b|以当前分支为基础创建新分支|
 |git checkout 'brach_name'|切换分支|
 |git checkout -|切换到上一分支|
-|git merge --no-ff 'branch_name'|合并分支，自动打开编辑器添加commit备注|
+|git merge --no-ff 'branch_name'|合并分支，自动打开编辑器添加commit备注<br>*'branch_name'指特性分支*|
 
 **Caution:**
 1. commit 指记录当前工作树所有文件的**当前**状态
@@ -27,4 +27,4 @@
 3. `git branch feature-A` 和 `git checkout feature-A`可以取得一样的效果：创建新分支
 4. 不断对一个分支进行提交的操作叫“培育分支”
 5. 基于特定主题的作业在特定分支中进行，完成之后再与master分支合并。这样可以保证**master分支可以随时供人查看**。
-6. 在合并分支前需要将当前分支所有变化提交(commit)
+6. 在合并分支前需要将当前分支所有变化提交(commit)再回到主干分支(master)
