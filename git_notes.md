@@ -35,3 +35,5 @@
 7. 对比`git log`与`git reflog`：前者只能查看以当前状态为终点的历史日志；后者可以查看所有日志，从而找到回溯历史前的状态
 8. 在回溯历史这样的操作中，创建完新分支一定要记得**切换到主干分支再跳回当前状态**
 9. .gitignore配置指南 <https://blog.csdn.net/a748448660/article/details/83824555?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromBaidu-1.control&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromBaidu-1.control>
+
+ceshi
